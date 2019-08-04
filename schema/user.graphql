@@ -1,0 +1,7 @@
+type Query {
+  users(take: Int = 10, skip: Int, reverse: Boolean): User!
+}
+
+type User {
+  id: ID!
+}
